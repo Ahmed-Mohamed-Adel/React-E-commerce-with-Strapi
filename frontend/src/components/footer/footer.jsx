@@ -1,4 +1,4 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Button, Link, Typography } from "@mui/material";
 
 const footer = () => {
   return (
@@ -19,18 +19,20 @@ const footer = () => {
         color={"HighlightText"}
       >
         Designed and developed by
-        <Button
-          sx={{
-            mx: 0.5,
-            fontSize: 18,
-            textTransform: "capitalize",
-            color: "#ff7790",
-          }}
-          variant="text"
-          color="primary"
-        >
-          Ahmed Adel
-        </Button>
+        <Link href="https://github.com/Ahmed-Mohamed-Adel" target="_blank">
+          <Button
+            sx={{
+              mx: 0.5,
+              fontSize: 18,
+              textTransform: "capitalize",
+              color: "#ff7790",
+            }}
+            variant="text"
+            color="primary"
+          >
+            Ahmed Adel
+          </Button>
+        </Link>
         &copy;{new Date().getFullYear()}
       </Typography>
     </Box>
