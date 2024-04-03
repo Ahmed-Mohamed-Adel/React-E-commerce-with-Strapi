@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { createContext, useState, useMemo } from "react";
 import { createTheme } from "@mui/material/styles";
 import { grey } from "@mui/material/colors";
@@ -8,14 +9,14 @@ export const getDesignTokens = (mode) => ({
     ...(mode === "light"
       ? {
           // palette values for light mode
+          text: {
+            primary: "#2B3445",
+          },
           myColor: {
             main: "#F6F9FC",
           },
           bg: {
             main: "#F6F6F6",
-          },
-          text: {
-            primary: "#2B3445",
           },
           neutral: {
             main: "#64748B",
@@ -27,6 +28,9 @@ export const getDesignTokens = (mode) => ({
         }
       : {
           // palette values for dark mode
+          text: {
+            primary: "#fff",
+          },
           myColor: {
             main: "#252b32",
           },
@@ -39,9 +43,6 @@ export const getDesignTokens = (mode) => ({
 
           favColor: {
             main: grey[800],
-          },
-          text: {
-            primary: "#fff",
           },
         }),
   },
