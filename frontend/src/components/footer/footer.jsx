@@ -14,7 +14,7 @@ const footer = () => {
         display={"flex"}
         justifyContent={"center"}
         alignItems={"center"}
-        sx={{ fontSize: 18 }}
+        sx={{ fontSize: { xs: 15, sm: 18 } }}
         variant="h6"
         color={"HighlightText"}
       >
@@ -23,7 +23,7 @@ const footer = () => {
           <Button
             sx={{
               mx: 0.5,
-              fontSize: 18,
+              fontSize: { xs: 15, sm: 18 },
               textTransform: "capitalize",
               color: "#ff7790",
             }}

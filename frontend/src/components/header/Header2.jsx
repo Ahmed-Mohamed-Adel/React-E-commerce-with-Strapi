@@ -101,6 +101,7 @@ const Header2 = () => {
 
       <Search
         sx={{
+          width: {xs: '200px'},
           display: "flex",
           borderRadius: "22px",
           justifyContent: "space-between",
