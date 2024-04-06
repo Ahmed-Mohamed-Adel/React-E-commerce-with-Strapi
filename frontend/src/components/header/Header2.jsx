@@ -101,7 +101,7 @@ const Header2 = () => {
 
       <Search
         sx={{
-          width: {xs: '200px'},
+          width: { xs: "200px" },
           display: "flex",
           borderRadius: "22px",
           justifyContent: "space-between",
@@ -135,7 +135,7 @@ const Header2 = () => {
             >
               <ListItemText
                 sx={{
-                  width: 93,
+                  width: {xs: 65, sm: 93},
                   textAlign: "center",
                   "&:hover": { cursor: "pointer" },
                 }}

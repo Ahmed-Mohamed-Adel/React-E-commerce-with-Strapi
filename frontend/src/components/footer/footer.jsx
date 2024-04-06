@@ -16,7 +16,7 @@ const footer = () => {
         alignItems={"center"}
         sx={{ fontSize: { xs: 15, sm: 18 } }}
         variant="h6"
-        color={"HighlightText"}
+        color={"#fff"}
       >
         Designed and developed by
         <Link href="https://github.com/Ahmed-Mohamed-Adel" target="_blank">
@@ -33,7 +33,7 @@ const footer = () => {
             Ahmed Adel
           </Button>
         </Link>
-        &copy;{new Date().getFullYear()}
+        &copy;2024
       </Typography>
     </Box>
   );
