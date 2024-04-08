@@ -10,6 +10,6 @@ This application is an E-Commerce project FullStack (Frontend & Backend)
 - View the product details page, price and description.
   
 ### Backendend
-- Create backend structure for products with Stripi.
+- Create backend structure for products with Strapi.
 - Adding, deleting and Editing products.
 
